@@ -1,19 +1,22 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+
 .food {
     display: inline-block;
     margin: 5px;
     text-align: center;
-    
-    
+    padding: 10px;
 }
 
-.title{
+.title {
     color: brown;
 }
 
- p {
-    color: initial; 
-    
-  }
+p {
+    color: initial;
+}
 
-  
-  
+
